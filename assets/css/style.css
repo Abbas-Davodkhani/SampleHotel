@@ -225,6 +225,56 @@ ul{
     float: right;
     padding: 20px;
     line-height: 1.5;
-   
+}
+
+/* ***********************Contact-Us************************* */
+
+.contact-us{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #b6b6ef;
+    border-radius: 20px;
+}
+
+form h2{
+    text-align: center;
+}
+
+.d-block{
+    display: block;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+.width100{
+    width: 100%;
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #b6b6ef;
+    transition: 0.5s;
+    border:none;
+}
+
+button:hover{
+    background-color: #b5e48c;
+}
+
+input{
+    height: 25px;
+}
+.border-radius{
+    border:none;
+    border-radius: 5px;
 }
 
