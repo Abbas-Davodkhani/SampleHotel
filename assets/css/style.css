@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+body{
+    background-color: #fec89a24;
+}
 
 a{
     text-decoration: none;
@@ -85,3 +88,70 @@ ul{
     background-color: #555b6e;
     color: #fff;
 }
+
+/* About penl */
+
+.about-panel{
+    height: 300px;
+    width: 90%;
+    margin: 5px auto;
+}
+
+.about-left , .about-right{
+    width: 50%;
+    height: 100%;
+}
+
+.about-left{
+    float: left;
+    text-align: center;
+    background-color: #bee3db;
+    padding-top: 80px;
+    line-height: 2;
+}
+.about-right{
+    float: right;
+}
+.about-right{
+    background: url('../images/about-hotel.png') no-repeat center center/cover;
+}
+
+/* services */
+
+.services{
+    width: 90%;
+    margin: 0px auto;
+    height: 200px;
+}
+
+.box{
+    width: 33.3%;
+    float : left;
+    height: 100%;
+    padding: 50px 30px 50px 30px;
+    text-align: center;
+}
+
+.box p{
+    text-align: justify;
+    line-height: 1.5;
+    font-size : 13px;
+}
+
+.bg-green{
+    background-color: #b5e48c;
+}
+
+.bg-yellow{
+    background-color: #d9ed92;
+}
+
+/* footer */
+
+.main-footer{
+    background-color: #555b6e;
+    width: 100%;
+    text-align: center;
+}
+
+
