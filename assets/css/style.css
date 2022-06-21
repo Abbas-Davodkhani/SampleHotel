@@ -179,15 +179,52 @@ ul{
     width: 50%;
     height: 100%;
     float: right;
+    text-align: center;
 }
 
 .about-us-right img{
-    width: 100%;
+    width: 50%;
     height: inherit;
     border-radius: 30px;
 }
 
 /* Comment */
 
-/* .comment */
+.comment{
+    height: 400px;
+    background-image: url('../images/Artshotel.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+   
+}
+
+.comment-one{
+    height: 150px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #d9ed92a1;
+    margin: 10px auto;
+    padding-top: 10px;
+}
+
+.comment-img{
+    width: 10%;
+    margin-top: 12px;
+    border-radius: 20px;
+    padding: 5px;
+    float: left;
+}
+
+.comment-text{
+    width: 90%;
+    margin-top: 12px;
+    float: right;
+    padding: 20px;
+    line-height: 1.5;
+   
+}
 
