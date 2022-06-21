@@ -43,3 +43,45 @@ ul{
     content: '';
     clear: both;
 }
+
+/* Header-Slide */
+.header-slide{
+    background-image: url(../images/hotel2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.slide-content{
+    text-align: center;
+    padding: 140px;
+    line-height: 2;
+}
+
+.slide-content h1{
+    color: #555b6e;
+}
+
+.slide-content p{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.r-hotel{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px;
+    background-color: #bee3dba6;
+    border-radius: 10px;  
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.r-hotel:hover{
+    background-color: #555b6e;
+    color: #fff;
+}
