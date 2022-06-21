@@ -154,4 +154,40 @@ ul{
     text-align: center;
 }
 
+/* ******************************About Page********************************* */
+
+.about-us{
+    width: 90%;
+    margin: auto;
+    height: 300px;
+    padding: 20px;
+}
+
+.about-us-left{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.about-us-left p{
+    text-align: justify;
+   
+}
+
+.about-us-right{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.about-us-right img{
+    width: 100%;
+    height: inherit;
+    border-radius: 30px;
+}
+
+/* Comment */
+
+/* .comment */
 
